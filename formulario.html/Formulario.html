@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    </title>Formulario de pesquisa</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form method="post" action="processar-pesquisa.html"></form>
+      <section>
+        <h2>Dados pessoais</h2>
+        <p>
+            <label for="nome">nome:</label>
+            <input type="text"id= nome/>  
+        </p>
+        <p>
+            <label for="email">email:</label>
+            <input type="email"id= email>
+        </p>
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="Telefone" id="Telefone">
+        </p>
+      </section>
+      <section>
+        <h2>Dados da pesquisa</h2>
+        <p>
+            Em uma escala de 1 a 5 indique o nível de atendimento prestado
+            <input type="radio"id="1" name="nível de atendimento"/>
+            <label for="1">1</label>
+            <input type="radio"id="2" name="nível de atendimento"/>
+            <label for="2">2</label>
+            <input type="radio"id="3" name="nível de atendimento"/>
+            <label for="3">3</label>
+            <input type="radio"id="4" name="nível de atendimento"/>
+            <label for="4">4</label>
+            <input type="radio"id="5" name="nível de atendimento"/>
+            <label for="5">5</label>
+        </p>
+        <p>
+            Em escala de 1 a 5, indique o nível de satisfação resolução do problema
+            <input type="radio"id="1" name="nível de resolução"/>
+            <label for="1">1</label>
+            <input type="radio"id="2" name="nível de resolução"/>
+            <label for="2">2</label>
+            <input type="radio"id="3" name="nível de resolução"/>
+            <label for="3">3</label>
+            <input type="radio"id="4" name="nível de resolução"/>
+            <label for="4">4</label>
+            <input type="radio"id="5" name="nível de resolução"/>
+            <label for="5">5</label>
+        </p>
+        <p>
+        <label for="Departamento">Departamento de atendimento</label>
+        <select>
+            <option>Marketing</option>
+            <option>Expedição</option>
+            <option>Logistica</option>
+            <option>Recursos Humanos</option>
+            <option>Comercial</option>
+        </select>
+        </p>
+        <p>
+            <input type="checkbox" id="Compartilhar Dados" />
+            <label for="Compartilhar Dados">Autorizo compartilhar dados com terceiros </label>
+        </p>
+      </section>
+      <input type="submit" value="enviar" />
+
+</body>
