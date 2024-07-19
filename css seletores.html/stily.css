@@ -1,0 +1,22 @@
+a {
+    color:red;    
+}
+a:hover {
+    color:lawngreen;
+}
+
+p{
+  font-family: 'Arial';  
+}
+h1 + p {
+    font-weight: 'bold';
+}
+destaque {
+    font-family: 'arial';
+}
+p.destaque {
+    font-weight: bold;
+}
+destrong.destaque {
+    color: red;
+}
