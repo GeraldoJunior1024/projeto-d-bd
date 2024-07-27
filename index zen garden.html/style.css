@@ -5,6 +5,37 @@
 .UI/UX-4-hex { color: #D9D7D7; }*/
 .destaque { color: #BF2424; }
 
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:#000 solid 1px;
+}
+.participation h3, .participation p {
+    flex-basis: 50%;     
+}
+.participation h3 {
+    align-self: center;
+}
+
+
+.supporting footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefits p {
+    flex-basis: 70%;
+}
+
+.benefits{
+    display: flex;
+    border-top:#000 solid 1px;
+    border-bottom: #000 solid 1px;
+}
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 20%;
+}
 .peger-wrapper {
     positon: relative;
 }
@@ -23,16 +54,16 @@
 }
 
 .main footer a { 
- border: solid 2xp #070000;
+ border: solid 2px #0000;
  padding: 0.5em;
- display: inline block;
+ display: inline-block;
 }
 
 aside ul {
     list-style-type: none;
 }
 aside ul li {
-    margin 1em;
+    margin 2em;
     text-align: center;
 
 }
