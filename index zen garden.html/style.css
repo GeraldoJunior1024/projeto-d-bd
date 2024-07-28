@@ -5,7 +5,36 @@
 .UI/UX-4-hex { color: #D9D7D7; }*/
 .destaque { color: #bf2424; }
 
-a {
+@media screen and (max-width: 768px ) {
+    .desing-selection {
+        position: static
+        width: 100%
+
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    #zen-intro {
+        height: auto;
+    }
+    .participation {
+        flex-direction: column;
+    }
+}
+p {
+    text-indent: 0;
+} 
+@media-print {
+    html {
+        font-family: 'Times News Roman', Time, serif 
+    }
+    #zen-intro header {
+         background-color #92b7ce;
+         color: rgb(15, 7, 1);}
+                
+    }                
+a { 
     color: #f80000 ;
 }
 a:hover {
@@ -17,11 +46,11 @@ a:hover {
 }
 .desing-selection li {
     border-top: #000 solid 1px;
-    padding-top: 5px;
+    
 }
 .desing-selection li:first-of-type {
     border-bottom: #000 solid 1px;
-    padding-bottom: 5px;
+    
 }
 .participation {
     display: flex;
@@ -63,9 +92,9 @@ a:hover {
     padding-right: 2%;
 }
 
-#design-selection {
+.design-selection {
     position: absolute;
-    top: 400px;
+    top: 480px;
     left: 62%;
     padding-left: 2%;
     padding-right: 2%;
