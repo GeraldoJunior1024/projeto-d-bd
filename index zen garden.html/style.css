@@ -1,10 +1,28 @@
 /* Color Theme Swatches in Hex */
 .background { color: #92b7ce; }
-.principal { color: chocolate; }
+.principal { color: rgb(15, 7, 1); }
 ./* UI/UX-3-hex { color: #8C8581; }
 .UI/UX-4-hex { color: #D9D7D7; }*/
-.destaque { color: #BF2424; }
+.destaque { color: #bf2424; }
 
+a {
+    color: #f80000 ;
+}
+a:hover {
+    color: #f5f120;
+}
+.main p:first-of-type:first-letter {
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif; 
+}
+.desing-selection li {
+    border-top: #000 solid 1px;
+    padding-top: 5px;
+}
+.desing-selection li:first-of-type {
+    border-bottom: #000 solid 1px;
+    padding-bottom: 5px;
+}
 .participation {
     display: flex;
     flex-wrap: wrap;
